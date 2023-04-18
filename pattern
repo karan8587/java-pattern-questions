@@ -1,3 +1,11 @@
+note: how to solveany pettern questions 
+step 1: number of lines = number of rows = number of times outer for loop will run 
+step 2: Identify for very row, how many columns are there.
+step 3: identify hwat do you need to print. 
+
+note: Try to write down row and column number in every questions. 
+
+
 package karanDemo;
 
 public class DemoAutomation {
