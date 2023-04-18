@@ -1,0 +1,19 @@
+package star;
+
+public class Pattern3 {
+
+	public static void main(String[] args) {
+		
+		pattern(5);
+	}
+	
+	static void pattern(int numberOfLines) {
+		for(int row= 0; row<=numberOfLines; row++) {
+			for(int column=1; column<= numberOfLines-row  ;column++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+
+}
