@@ -1,0 +1,19 @@
+package star;
+
+public class NumberPattern {
+
+	public static void main(String[] args) {
+		pattern(5);
+	}
+
+	static void pattern(int numberOfLines) {
+		for (int row = 1; row <= numberOfLines; row++) {
+			for (int column = 1; column <= row; column++) {
+				System.out.print(row + " ");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
