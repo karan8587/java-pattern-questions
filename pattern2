@@ -1,0 +1,31 @@
+package star;
+
+public class StarProject {
+
+	public static void main(String[] args) {
+			pattern1(8);
+			System.out.println();
+			pattern2(8);
+		}
+	
+	
+	
+	static void pattern1(int numberOfLines) {
+		for(int row=1; row<=numberOfLines; row++) {
+			for(int column=1; column<=row; column++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+	
+	static void pattern2(int numberOfLines) {
+		for(int row=1; row<=numberOfLines; row++) {
+			for(int column= 1; column<=numberOfLines; column++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+	}
+	
+}
